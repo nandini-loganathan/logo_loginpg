@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Poppins', sans-serif; 
+    min-height: 100vh;
+}
+.sign{
+    font-weight: 300;
+    width: 300px;
+    background-color: white; 
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 0px;
+    display:flex;
+    flex-direction:column;
+    gap: 15px;
+    box-shadow: 0 0 17px 10px rgb(0 0 0/10%);
+}
+#head{
+    font-weight: 400;
+}
+.input{
+    width:100%;
+}
+.box{
+    width:100%;
+}
+.input{
+    padding:10px;
+}
+#Signin{
+    padding:10px;
+    border-radius: 50px;
+    border:1px solid grey; 
+    background-color: rgb(10, 102, 194);
+    color: white;
+    text-align: centre;
+    width:100%;
+    cursor: pointer;
+}
+#apple{
+    padding:10px;
+    border-radius: 50px;
+    border:1px solid grey;
+    background-color: white;
+    width:100%;
+    cursor: pointer;
+    box-shadow: 0 0 17px 10px rgb(0 0 0/4%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgot{
+    color: rgb(10, 102, 194);
+    text-decoration: none;
+    font-size:small;
+    font-weight: 400;
+}
+#Signin:hover{
+    background-color: rgb(72, 143, 214);
+}
+#apple:hover{
+    box-shadow: 0 0 17px 10px rgb(0 0 0/8%);
+}
+.image{
+    height:16px;
+}
+.app{
+    font-family: 'Poppins', sans-serif; 
+}
