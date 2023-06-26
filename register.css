@@ -22,6 +22,7 @@ body{
     flex-direction:column;
     gap: 15px;
     box-shadow: 0 0 17px 10px rgb(0 0 0/10%);
+}
 #head{
     font-weight: 400;
 }
